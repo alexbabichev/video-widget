@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Sample Video Player</title>
+        <link href="css/font-awesome.min.css" rel="stylesheet"/>
+        <link href="css/style.css" rel="stylesheet"/>
+        <script src="js/jquery-2.2.1.min.js"></script>
+        <script src="player.js"></script>
+    </head>
+    <body>
+        <br><br><br><br>
+
+
+        <div class="splayer">
+            <video controls class="video">
+                <source src="https://iandevlin.com/html5/media-player/parrots.mp4" type="video/mp4">
+                <source src="https://iandevlin.com/html5/media-player/parrots.webm" type="video/webm">
+            </video>
+            <div class="player-overlay">
+              <i class="fa fa-play-circle-o"></i>
+            </div>
+            <div class="controls">
+              <div class="controls-block">
+                <button class="controls-btns_play js_play play" title="play">
+                  <i class="fa fa-play"></i>
+                  <i class="fa fa-pause"></i>
+                </button>
+              </div>
+              <div class="controls-block">
+                <span class="time">00:00</span>
+                /
+                <span class="duration">00:00</span>
+              </div>
+              <div class="controls-block">
+                <progress class="controls-progressbar js_progressbar" min="0" max="100" value="0"></progress>
+                <span class="movetotime hidden">00:00</span>
+              </div>
+              <div class="controls-block">
+                <button class="js_mute">
+                  <i class="fa fa-volume-up"></i>
+                </button>
+                <progress class="controls-volume js_volume" min="0" max="1" value="1"></progress>
+              </div>
+              <div class="controls-block">
+                <button class="expand js_expand">
+                  <i class="fa fa-expand"></i>
+              </div>
+            </div>
+        </div>
+
+        <br><br><br><br>
+
+        <div class="splayer">
+            <video controls class="video">
+                <source src="https://iandevlin.com/html5/media-player/parrots.mp4" type="video/mp4">
+                <source src="https://iandevlin.com/html5/media-player/parrots.webm" type="video/webm">
+            </video>
+            <div class="player-overlay">
+              <i class="fa fa-play-circle-o"></i>
+            </div>
+            <div class="controls">
+              <div class="controls-block">
+                <button class="controls-btns_play js_play play" title="play">
+                  <i class="fa fa-play"></i>
+                  <i class="fa fa-pause"></i>
+                </button>
+              </div>
+              <div class="controls-block">
+                <span class="time">00:00</span>
+                /
+                <span class="duration">00:00</span>
+              </div>
+              <div class="controls-block">
+                <progress class="controls-progressbar js_progressbar" min="0" max="100" value="0"></progress>
+                <span class="movetotime hidden">00:00</span>
+              </div>
+              <div class="controls-block">
+                <button class="js_mute">
+                  <i class="fa fa-volume-up"></i>
+                </button>
+                <progress class="controls-volume js_volume" min="0" max="1" value="1"></progress>
+              </div>
+              <div class="controls-block">
+                <button class="expand js_expand">
+                  <i class="fa fa-expand"></i>
+              </div>
+            </div>
+        </div>
+
+
+    </body>
+</html>
